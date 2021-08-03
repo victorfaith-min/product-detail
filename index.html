@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product-detail</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="container">
+      <div class="logo">
+        <img src="/logo.png" alt="logo" />
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Help</a></li>
+          <li class="d-none">
+            <select name="language">
+              <option value="Eng">Eng</option>
+              <option value="Eng">Spa</option>
+              <option value="Eng">Us</option>
+              <option value="Eng">Un</option>
+              <option value="Eng">UK</option>
+            </select>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-shopping-cart"></i> Cart</a>
+          </li>
+          <div class="d-none">
+            <div class="bell">
+              <i class="fas fa-bell"></i>
+              <div class="person">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="dropdown">
+                <input type="text" placeholder="Mrs, Something" /><i
+                  class="fas fa-caret-down"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <select name="language" class="d-non">
+        <option value="Eng">Eng</option>
+        <option value="Eng">Spa</option>
+        <option value="Eng">Us</option>
+        <option value="Eng">Un</option>
+        <option value="Eng">UK</option>
+      </select>
+      <div class="d-non">
+        <div class="bell">
+          <i class="fas fa-bell"></i>
+          <div class="person">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="dropdown d-none">
+            <input type="text" placeholder="Mrs, Something" /><i
+              class="fas fa-caret-down"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="d-non">
+        <i class="fas fa-bars" id="bars"></i>
+      </div>
+    </nav>
+    <!-- Banner Section -->
+    <div class="banner">
+      <div class="container">
+        <h1>Nigeria's biggerset B2B ECommerce Platform</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quod!
+        </p>
+        <div class="search-bar">
+          <button class="search-btn">Sell on Min</button>
+          <form>
+            <div class="search-input">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Enter Keyword" />
+            </div>
+            <button type="submit" class="search-submit-btn">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Display Section -->
+    <section class="display container">
+      <div class="show-img-place">
+        <div class="top-side">
+          <div class="review-price-area">
+            <div class="review-pic">
+              <img src="/shoe.png" alt="shoe" class="show-first" />
+              <img src="/shoe.png" alt="shoe" class="show-sec" />
+              <div class="show-third">
+                <img src="/shoe.png" alt="shoe" />
+              </div>
+            </div>
+          </div>
+          <div class="review">
+            <div class="name-star">
+              <h1>Name fo Product</h1>
+              <div class="block">
+                <div class="sta">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="far fa-star"></i>
+                </div>
+                <p>Number of reviews</p>
+                <a href="#">Submit A review</a>
+              </div>
+            </div>
+            <div class="name-star">
+              <h1>Price</h1>
+              <div class="block">
+                <div class="block-conent">
+                  <p class="lead">1-1000</p>
+                  <h6>#1000</h6>
+                </div>
+                <div class="block-conent">
+                  <p class="lead">1-1000</p>
+                  <h6>#1000</h6>
+                </div>
+                <div class="block-conent">
+                  <p class="lead">1-1000</p>
+                  <h6>#1000</h6>
+                </div>
+              </div>
+            </div>
+            <div class="name-star">
+              <p class="lead">Unit available: <span>200</span></p>
+              <h1>Select colour</h1>
+              <div class="block">
+                <div class="block-content">
+                  <div class="black"></div>
+                  <p>black</p>
+                </div>
+                <div class="block-content">
+                  <div class="yellow"></div>
+                  <p>yellow</p>
+                </div>
+                <div class="block-content">
+                  <div class="red"></div>
+                  <p>red</p>
+                </div>
+                <div class="block-content">
+                  <div class="blue"></div>
+                  <p>blue</p>
+                </div>
+                <div class="block-content">
+                  <div class="green"></div>
+                  <p>green</p>
+                </div>
+                <div class="block-content">
+                  <div class="ash"></div>
+                  <p>grey</p>
+                </div>
+              </div>
+            </div>
+            <div class="name-star">
+              <div class="name-star-content">
+                <h1>Sizes</h1>
+                <select class="opt">
+                  <option>36</option>
+                  <option>36</option>
+                  <option>36</option>
+                  <option>36</option>
+                  <option>36</option>
+                </select>
+              </div>
+              <p class="lead">Maximum order: <span>1 Dozen</span></p>
+              <div class="block-grid">
+                <div class="loki">
+                  <div><i class="fas fa-minus"></i></div>
+                  <h6>2</h6>
+                  <div><i class="fas fa-plus"></i></div>
+                </div>
+                <div class="other-stack">
+                  <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h6>Add To cart</h6>
+                  </div>
+                  <div class="like">
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review-btn">
+              <button class="review-border">Review</button>
+              <button class="product-btn">lol</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-none">
+          <div class="bottom">
+            <h5>Product Descrition</h5>
+          </div>
+        </div>
+      </div>
+      <div class="product-info">
+        <div class="product-item">
+          <h1 class="lock">Product</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+            dolorum at quod alias laboriosam consectetur facere quia error
+            accusantium nostrum.
+          </p>
+        </div>
+        <div class="product-item">
+          <h1>Shipping</h1>
+          <p class="lead">Lorem ipsum dolor sit amet.</p>
+          <ul>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+            <li>lorem</li>
+          </ul>
+          <button class="product-btn">contact Seller</button>
+        </div>
+        <div class="product-item">
+          <h1>Return Policy</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+            dolorum at quod alias laboriosam consectetur facere quia error
+            accusantium nostrum.
+          </p>
+        </div>
+        <div class="product-item">
+          <h1>Warranty</h1>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div class="product-item">
+          <h1>Seller Information</h1>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <a href="#">Something</a>
+          <a href="#">Something</a>
+          <button class="product-btn">Something</button>
+        </div>
+        <div class="product-item">
+          <h1>Seller Review</h1>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="far fa-star"></i>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript -->
+    <script>
+      const bars = document.querySelector("#bars");
+      const links = document.querySelector(".links");
+
+      bars.addEventListener("click", () => {
+        bars.classList.toggle("fa-times");
+        links.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
